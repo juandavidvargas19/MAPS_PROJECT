@@ -1,0 +1,5 @@
+- run=my_experiment3
+- +hardware=macbook
+- wandb=off
+- +wandb.entity=dummy3
+- +wandb.project=dummy3
