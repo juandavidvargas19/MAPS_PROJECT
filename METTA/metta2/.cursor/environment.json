@@ -1,4 +1,0 @@
-{
-  "install": "curl -LsSf https://astral.sh/uv/install.sh | sh && ./devops/setup_dev.sh",
-  "start": "source .venv/bin/activate"
-}
