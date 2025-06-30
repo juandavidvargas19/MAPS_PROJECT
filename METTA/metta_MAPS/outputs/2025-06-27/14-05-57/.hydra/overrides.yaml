@@ -1,0 +1,2 @@
+- run=my_experiment3
+- renderer_job.environment.uri=configs/env/mettagrid/maps/debug/simple_obstacles.map

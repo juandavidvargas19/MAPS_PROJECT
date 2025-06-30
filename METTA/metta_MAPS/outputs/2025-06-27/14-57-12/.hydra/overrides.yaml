@@ -1,0 +1,4 @@
+- policy_uri=/home/ubunto/MSc_CS/MAPS_PROJECT/METTA/metta_MAPS/train_dir/my_experiment3/checkpoints/model_1280.pt
+- run=my_experiment3
+- +hardware=macbook
+- wandb=off

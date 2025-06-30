@@ -1,0 +1,17 @@
+{"time":"2025-06-24T16:10:07.221741361-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/ubunto/MSc_CS/MAPS_PROJECT/METTA/metta_MAPS/wandb/run-20250624_161007-my_experiment3/logs/debug-core.log"}
+{"time":"2025-06-24T16:10:08.694912713-05:00","level":"INFO","msg":"created new stream","id":"my_experiment3"}
+{"time":"2025-06-24T16:10:08.695028744-05:00","level":"INFO","msg":"stream: started","id":"my_experiment3"}
+{"time":"2025-06-24T16:10:08.695159584-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"my_experiment3"}
+{"time":"2025-06-24T16:10:08.695287594-05:00","level":"INFO","msg":"handler: started","stream_id":"my_experiment3"}
+{"time":"2025-06-24T16:10:08.695475138-05:00","level":"INFO","msg":"sender: started","stream_id":"my_experiment3"}
+{"time":"2025-06-24T16:10:09.13165674-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T16:10:09.13224077-05:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-06-24T16:10:10.834785393-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-24T16:10:10.834845161-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-24T16:10:11.53708492-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-24T16:10:11.836130806-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 610-686","runtime_seconds":0.298657069}],"total_operations":1}}
+{"time":"2025-06-24T16:10:12.03232497-05:00","level":"INFO","msg":"stream: closing","id":"my_experiment3"}
+{"time":"2025-06-24T16:10:12.032353694-05:00","level":"INFO","msg":"handler: closed","stream_id":"my_experiment3"}
+{"time":"2025-06-24T16:10:12.032372198-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"my_experiment3"}
+{"time":"2025-06-24T16:10:12.032401555-05:00","level":"INFO","msg":"sender: closed","stream_id":"my_experiment3"}
+{"time":"2025-06-24T16:10:12.032474364-05:00","level":"INFO","msg":"stream: closed","id":"my_experiment3"}

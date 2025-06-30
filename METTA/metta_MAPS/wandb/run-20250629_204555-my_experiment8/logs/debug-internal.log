@@ -1,0 +1,8 @@
+{"time":"2025-06-29T20:45:55.203487935-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/ubunto/MSc_CS/MAPS_PROJECT/METTA/metta_MAPS/wandb/run-20250629_204555-my_experiment8/logs/debug-core.log"}
+{"time":"2025-06-29T20:45:56.663593135-05:00","level":"INFO","msg":"created new stream","id":"my_experiment8"}
+{"time":"2025-06-29T20:45:56.663692992-05:00","level":"INFO","msg":"stream: started","id":"my_experiment8"}
+{"time":"2025-06-29T20:45:56.663741538-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"my_experiment8"}
+{"time":"2025-06-29T20:45:56.663812878-05:00","level":"INFO","msg":"handler: started","stream_id":"my_experiment8"}
+{"time":"2025-06-29T20:45:56.663938082-05:00","level":"INFO","msg":"sender: started","stream_id":"my_experiment8"}
+{"time":"2025-06-29T20:45:57.020112221-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-29T20:45:57.020391826-05:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}

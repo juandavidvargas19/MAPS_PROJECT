@@ -1,0 +1,40 @@
+run: my_experiment3
+dist_cfg_path: null
+data_dir: ${oc.env:DATA_DIR,./train_dir}
+run_dir: ${data_dir}/${run}
+policy_uri: file://${run_dir}/checkpoints
+torch_deterministic: true
+vectorization: serial
+seed: 0
+device: cpu
+wandb:
+  enabled: true
+  project: metta
+  entity: juan-davidvargas19022001
+  group: ${run}
+  name: ${run}
+  run_id: ${run}
+  data_dir: ${run_dir}
+  job_type: ${cmd}
+sim:
+  num_episodes: 1
+  max_time_s: 60
+  env_overrides: {}
+  env: /env/mettagrid/simple
+replay_job:
+  sim: ${sim}
+  policy_uri: ${policy_uri}
+  selector_type: top
+  stats_dir: ${run_dir}/stats
+  replay_dir: s3://softmax-public/replays/local
+cmd: play
+trainer:
+  num_workers: 1
+  update_epochs: 1
+  batch_size: 1024
+  minibatch_size: 1024
+  forward_pass_minibatch_target_size: 2
+  async_factor: 1
+  checkpoint_interval: 10
+  bptt_horizon: 8
+  num_steps: 32

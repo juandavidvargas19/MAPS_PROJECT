@@ -1,0 +1,17 @@
+{"time":"2025-06-24T15:45:04.2872951-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/ubunto/MSc_CS/MAPS_PROJECT/METTA/metta_MAPS/wandb/run-20250624_154504-my_experiment3/logs/debug-core.log"}
+{"time":"2025-06-24T15:45:05.746096332-05:00","level":"INFO","msg":"created new stream","id":"my_experiment3"}
+{"time":"2025-06-24T15:45:05.746176219-05:00","level":"INFO","msg":"stream: started","id":"my_experiment3"}
+{"time":"2025-06-24T15:45:05.746267013-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"my_experiment3"}
+{"time":"2025-06-24T15:45:05.746489252-05:00","level":"INFO","msg":"sender: started","stream_id":"my_experiment3"}
+{"time":"2025-06-24T15:45:05.746522722-05:00","level":"INFO","msg":"handler: started","stream_id":"my_experiment3"}
+{"time":"2025-06-24T15:45:06.110661249-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T15:45:06.111464427-05:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-06-24T15:45:07.629415503-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-24T15:45:07.629471841-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-24T15:45:08.390549348-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-24T15:45:08.621866317-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-06-24T15:45:08.626809381-05:00","level":"INFO","msg":"stream: closing","id":"my_experiment3"}
+{"time":"2025-06-24T15:45:08.626824338-05:00","level":"INFO","msg":"handler: closed","stream_id":"my_experiment3"}
+{"time":"2025-06-24T15:45:08.626834755-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"my_experiment3"}
+{"time":"2025-06-24T15:45:08.626913363-05:00","level":"INFO","msg":"sender: closed","stream_id":"my_experiment3"}
+{"time":"2025-06-24T15:45:08.62697471-05:00","level":"INFO","msg":"stream: closed","id":"my_experiment3"}

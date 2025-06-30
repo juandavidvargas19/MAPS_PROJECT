@@ -1,0 +1,32 @@
+run: my_experiment3
+dist_cfg_path: null
+data_dir: ${oc.env:DATA_DIR,./train_dir}
+run_dir: ${data_dir}/${run}
+policy_uri: file://${run_dir}/checkpoints
+torch_deterministic: true
+vectorization: multiprocessing
+seed: 0
+device: cuda
+wandb:
+  enabled: true
+  project: metta
+  entity: juan-davidvargas19022001
+  group: ${run}
+  name: ${run}
+  run_id: ${run}
+  data_dir: ${run_dir}
+  job_type: ${cmd}
+cmd: renderer
+env: null
+renderer_job:
+  policy_type: random
+  policy_uri: null
+  num_steps: 50000
+  num_agents: 2
+  max_steps: 10000
+  sleep_time: 0.0
+  renderer_type: human
+  environment:
+    _target_: mettagrid.room.ascii.Ascii
+    uri: configs/env/mettagrid/maps/debug/simple_obstacles.map
+    border_width: 0

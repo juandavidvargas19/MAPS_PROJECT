@@ -1,0 +1,3 @@
+- run=my_experiment3
+- +hardware=macbook
+- wandb=off
